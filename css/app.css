@@ -1,0 +1,196 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 80vh;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+    width: 620px;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.menu {
+    display: flow-root;
+    list-style: none;
+    margin: 15px 0 0 15px;
+    padding: 0;
+}
+
+.menu li {
+    display: flow-root;
+    padding: 0 5px;
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    width: 100px;
+    color: #636b6f;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    text-decoration: none;
+    border: solid 1px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.menu li a.account {
+    width: 200px;
+}
+
+.menu li a:hover {
+    background: #636b6f;
+    color: #ffffff;
+}
+
+.links {
+    display: flow-root;
+    list-style: none;
+    margin: 15px 0 0 15px;
+    padding: 0;
+}
+
+.links li {
+    display: flow-root;
+    color: #636b6f;
+    margin-bottom: 5px;
+    padding: 0 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.links li.title::after {
+    content: '';
+    display: block;
+    width: 580px;
+    background: #ccc;
+    height: 1px;
+    margin: 30px 0 10px 0;
+}
+
+.links li.total::before {
+    content: '';
+    display: block;
+    width: 580px;
+    background: #ccc;
+    height: 1px;
+    margin: 10px 0 20px 0;
+}
+
+.links li.icon {
+    margin-bottom: 20px;
+}
+
+.links li.icon img {
+    display: block;
+    width: 35px;
+}
+
+.links li.icon.product {
+    margin-bottom: 35px;
+}
+
+.links li.icon.product img {
+    position: absolute;
+    margin-top: -20px;
+}
+
+.links li p {
+    float: left;
+    margin: 2px 15px 2px 0;
+    width: 100px;
+    text-align: left;
+}
+
+.links li p.rating {
+    display: inline-block;
+    float: right;
+    width: auto;
+}
+
+.links li div .stars {
+    float: right;
+    margin-right: 10px;
+}
+
+.links li div.avg-ratings .stars {
+    margin-top: 10px;
+}
+
+.links li select {
+    float: right;
+    width: 220px;
+    height: 21px;
+    margin-right: 15px;
+    padding-left: 5px;
+}
+
+.links li input {
+    float: right;
+    width: 100px;
+    margin-right: 15px;
+}
+
+.links li input[name="quantity"] {
+    padding-left: 5px;
+}
+
+.red-text {
+    color: red;
+}
+
+.info {
+    display: none;
+    background: #eee;
+    padding: 0 15px;
+    margin-top: 15px;
+}
+
+.success {
+    display: inline-block;
+}
+
+.close {
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+}
+
+a.filled {
+    background-position:left -59px;
+}
+
+a.tmp_fs {
+    background-position: left -59px;
+}
+
+a.tmp_es {
+    background-position: left -2px;
+}
